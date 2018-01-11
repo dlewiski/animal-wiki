@@ -1,6 +1,22 @@
 .dragon {
   display: none;
 }
+
 .unicorn {
   display: none;
+}
+
+img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+#dragoninfo {
+  display: none;
+  color: blue;
+}
+
+#unicorninfo {
+  display: none;
+  color: red;
 }

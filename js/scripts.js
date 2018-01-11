@@ -8,4 +8,10 @@ $(document).ready(function() {
       } else {
         alert("choose yes or no or meet your untimely demise");
       }
+      $("#dragonPic").click(function(){
+        $("#dragoninfo").toggle();
+      });
+      $("#unicornPic").click(function(){
+        $("#unicorninfo").toggle();
+      });
 });
